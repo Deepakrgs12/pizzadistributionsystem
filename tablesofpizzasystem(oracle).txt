@@ -1,0 +1,22 @@
+
+/// for order stored
+
+CREATE TABLE order3(
+  email varchar2(45) NOT NULL,
+  pizzatype varchar2(45) NOT NULL,
+ quantity number(15) NOT NULL,
+         event_timestamp timestamp
+
+) 
+
+
+
+///registration and login page tables
+
+create table  reg(FirstName varchar2(255) NOT NULL,LastName varchar2(255) NOT NULL, Email varchar2(255) NOT NULL UNIQUE,Password varchar2(255) NOT NULL,,Dob varchar2(255) NOT NULL,PhoneNO varchar2(255) NOT NULL UNIQUE,Address varchar2(255) NOT NULL)
+
+
+
+//// for admin login
+
+create table admin(email varchar2(200),pass varchar2(20))
